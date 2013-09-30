@@ -1,6 +1,6 @@
 package ca.ubc.cpsc310.gitlab.client.user;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ public class User implements IUser {
 	
 	private static final long serialVersionUID = -4678920906536621479L;
 	
-	private List<ProductItem> shoppingCart = new ArrayList<ProductItem>();
-	private List<ProductItem> wishList = new ArrayList<ProductItem>();
+	private List<ProductItem> shoppingCart = new LinkedList<ProductItem>();
+	private List<ProductItem> wishList = new LinkedList<ProductItem>();
 	
 	private String name;
 	private String language;
