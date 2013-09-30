@@ -61,6 +61,8 @@ public class GitLab implements EntryPoint {
 				Window.alert("Got list back with " +  result.size() + " entries");
 				
 			}});
+		private final FlexTable flexTable = new FlexTable();
+		final LoadUsersServiceAsync service = GWT.create(LoadUsersService.class);
 	}
 	
 	/**
