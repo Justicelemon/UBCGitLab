@@ -35,12 +35,12 @@ public class User implements IUser {
 
 	@Override
 	public List<ProductItem> getWishList() {
-		return wishList;
+		return shoppingCart;
 	}
 
 	@Override
 	public List<ProductItem> getShoppingCart() {
-		return shoppingCart;
+		return wishList;
 	}
 
 	@Override
