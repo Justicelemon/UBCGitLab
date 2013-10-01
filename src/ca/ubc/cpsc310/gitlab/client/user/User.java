@@ -16,6 +16,17 @@ public class User implements IUser {
 	
 	private String name;
 	private String language;
+	
+	public class User implements IUser {
+
+		
+		private static final long serialVersionUID = -4678920906536621479L;
+		
+		private ArrayList<ProductItem> shoppingCart = new ArrayList<ProductItem>();
+		private ArrayList<ProductItem> wishList = new ArrayList<ProductItem>();
+		
+		private String name;
+		private String language;
 
 	
 	public User()
